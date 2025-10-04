@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Batman</title>
+</head>
+<body>
+<h1>Актори фільму "Бетмен"(1989)</h1>
+<div class="Golovnuy">
+    <div class="actor-card">
+        <img src="https://upload.wikimedia.org/wikipedia/ru/7/7b/Michael_Keaton_as_Bruce_Wayne_Batman.jpg" alt="Michael Keanton" class="actor-image">
+        <div class="actor-name">Майкл Кінтон</div>
+        <div class="actor-role"><span class="role-title">Роль:</span>Бетмен\Bruce Wayne</div>
+    </div>
+    <div class="actor-card one">
+        <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/d/da/Jack_Napier_Joker.jpeg/800px-Jack_Napier_Joker.jpeg" alt="Джек Ніколсон"class="actor-image">
+        <div class="actor-image">Джек Ніколсон</div>
+        <div class="actor-role"><span class="role-title">Роль:</span>Джокер\Джек Напье</div>
+    </div>
+
+    <div class="actor-card">
+        <img src="https://upload.wikimedia.org/wikipedia/ru/6/6c/Kim_Basinger_as_Vicki_Vale.jpg" alt="Кім Бейсінгер" class="actor-image">
+        <div class="actor-name">Кім Бейсінгер</div>
+        <div class="actor-role"><span class="role-title">Роль:</span>Вікі Вейл</div>
+    </div>
+    <div class="actor-card">
+        <img src=" https://upload.wikimedia.org/wikipedia/commons/6/6d/Robert_Wuhl_1998.jpg" class="actor-image">
+        <div class="actor-name">Роберт Вул</div>
+        <div class="actor-role"><span class="role-title">Роль:</span>Александр Нокс</div>
+    </div>
+    <div class="actor-card">
+        <img src="https://preview.redd.it/r5o2ler5ege51.jpg?width=640&crop=smart&auto=webp&s=e342795046330c7e10178babf207a5952cfbfcd4" alt="Майкл Гоф" class="actor-image">
+        <div class="actor-name">Майкл Гоф</div>
+        <div class="actor-role"><span class="role-title">Роль:</span>Альфред Пенніворт</div>
+    </div>
+    <div class="actor-card">
+        <img src="https://upload.wikimedia.org/wikipedia/ru/c/ca/Batman_photos_oldman.jpg" alt="Пет Гінгл" class="actor-image">
+        <div class="actor-name">Пет Гінгл</div>
+        <div class="actor-role"><span class="role-title">Роль:</span>Комісар Джеймс</div>
+    </div>
+    <div class="actor-card">
+        <img src="https://images.kinorium.com/movie/shot/88704/w1500_49248957.jpg" alt="Джек Паланс" class="actor-image">
+        <div class="actor-name">Джек Паланс</div>
+        <div class="actor-role"><span class="role-title">Роль:</span>Карл Гріссом</div>
+    </div>
+    <div class="actor-card">
+        <img src="https://preview.redd.it/billy-dee-williams-as-two-face-v0-cxy6tm1894id1.jpeg?width=1080&crop=smart&auto=webp&s=32907a05bbf18770d0f39ecdd18088c0f1cd97b1" alt="Біллі Ді Вільямс" class="actor-image">
+        <div class="actor-name">Білі Ді Вільямс</div>
+        <div class="actor-role"><span class="role-title">Роль:</span>Гарві Дент</div>
+    </div>
+
+
+</div>
+</body>
+</html>
+
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        background-color:#1c1c1c;
+        color: #f0f0f0;
+        margin: 0;
+        padding: 20px;
+    }
+    h1{
+        color: #ffee00;
+        text-align: center;
+        border-botom:3px solid#000000;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+    }
+    .Golovnuy{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        gap:20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .actor-card {
+        background-color: #333;
+        border: 2px solid #555;
+        border-radius: 10px;
+        padding: 15px;
+        width: 280px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        text-align: center;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .actor-card:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgda(0,0,0,0.7);
+    }
+    .actor-image{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        border: 1px; solid#ffee00
+    }
+    .actor-name{
+        font-size: 1.1em;
+        color: #fff;
+        margin: 10px 0 5px 0;
+    }
+    .actor-role{
+        font-size: 1.1em;
+        color: #ffee00;
+        font-style: initial;
+    }
+    .role-title{
+        color: #ccc;
+        font-weight: normal;
+    }
+</style>
