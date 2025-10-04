@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Card</title>
+</head>
+<body>
+<main class="card-game">
+    <section class="plauer-hand">
+        <h2>Player1:</h2>
+        <ul class="hand">
+            <li class="card two clubs">2&clubs;</li>
+            <li class="card nine hearts">9&hearts;</li>
+            <li class="card six hearts">6&hearts;</li>
+            <li class="card ace diamonds">A&diams;</li>
+            <li class="card queen spades">Q&spades;</li>
+            <li class="card jack clubs">J&clubs;</li>
+        </ul>
+    </section>
+
+    <section class="plaer-hand">
+        <h2>Player2:</h2>
+        <ul class="hand">
+            <li class="card three hearts">3&hearts;</li>
+            <li class="card ace clubs">A&clubs;</li>
+            <li class="card ten clubs">10&clubs;</li>
+            <li class="card king diamonds">K&diams;</li>
+            <li class="card eight spades">8&spades;</li>
+            <li class="card three haerts">3&hearts;</li>
+            </ul>
+
+    </section>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .card-game{
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h2{
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .hand{
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin-bottom: 30px;
+        }
+        .card{
+            width: 65px;
+            height: 90px;
+            margin-right: 8px;
+            background-color: white;
+            border: 1px solid#333;
+            border-radius: 4px;
+            box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+            display: flex;
+            align-items: center;
+            font-size: 2em;
+            font-weight: 700;
+            color: black;
+        }
+        .nine.hearts,.six.hearts,.ace.diamonds,.three.hearts,.king.diamonds{
+          color: #cc0000;
+        }
+        .two.clubs,.queen.spades,.jack.clubs,.ace.clubs,.ten.clubs,.eight.spades{
+            color: black;
+        }
+    </style>
+</main>
+</body>
+</html>
