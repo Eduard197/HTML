@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    padding-top: 20px;
+    }
+.year {
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows:auto auto 1fr ;
+    justify-content: center;
+    background: darkolivegreen;
+    gap: 15px;
+    padding: 15px;
+    max-width: 1200px;
+    min-height:600px;
+    margin: 15px auto;
+    box-shadow: 0 5px 15px rgda(0,0,0,0.4);
+    border-radius: 5px;
+    width: 90%;
+    }
+.month p{
+    font-size: 0.9em;
+    line-height: 1.4;
+    margin-bottom: 4px;
+    }
+.month:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rqba(0,0,0,0.3);
+}
+.month{
+    border: 0px solid;
+    background-color: #aed26e;
+    border-radius: 5px;
+}
+
+
+
