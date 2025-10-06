@@ -27,6 +27,7 @@ body{
     font-size: 0.9em;
     line-height: 1.4;
     margin-bottom: 4px;
+    padding-left: 10px;
     }
 .month:hover{
     transform: scale(1.05);
@@ -37,6 +38,8 @@ body{
     background-color: #aed26e;
     border-radius: 5px;
 }
-
-
+.month h3{
+    padding-left: 10px;
+    padding-top:10px;
+}
 
