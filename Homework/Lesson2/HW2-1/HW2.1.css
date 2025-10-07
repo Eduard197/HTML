@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: aliceblue;
+    background-color: #d2d7dc;
 }
 h1{
     text-align: center;
@@ -29,10 +29,7 @@ h1{
     flex-direction: column;
     gap: 20px;
 }
-.card  p{
-    font-size: 25px;
-    font-width:600;
-}
+
 .card-one p{
     font-size:20px;
     font-weight: 600;
@@ -42,3 +39,33 @@ h1{
     width: 60%;
 
 }
+.that-is-all p {
+    font-size: 16px;
+    font-weight: 600;
+}
+.that-is-all{
+    border: none;
+    text-align: right;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+hr{
+    border: 2px;
+    height: 3px;
+    width: 100%;
+    margin-top: ;
+}
+.separator-line{
+    border: none;
+    height: 1px;
+    background-color: #272525;
+    margin-top: 10px;
+    width: 100%;
+    flex-basis: 100%;
+}
+
+
+
+
+
+
