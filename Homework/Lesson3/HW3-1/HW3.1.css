@@ -1,0 +1,31 @@
+header{
+    height: 60vh;
+    background: darkblue;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0;
+}
+section{
+    height: 50vh;
+    width: 32%;
+    background: #060647;
+}
+footer{
+    height: 90vh;
+    background: darkblue;
+}
+body{
+    margin: 2%;
+}
+header, section, footer{
+    color: white;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
