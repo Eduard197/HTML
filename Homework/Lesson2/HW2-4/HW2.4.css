@@ -1,0 +1,60 @@
+
+.block{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+}
+.block-one{
+    height: 200px;
+    width: 200px;
+    background-color: burlywood;
+    font-family: "Rubik Pixels", system-ui;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block-twuo{
+    height: 200px;
+    width: 200px;
+    background-color:burlywood;
+    font-family: "Sedgwick Ave Display", cursive;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block-three{
+    height: 200px;
+    width: 200px;
+    background-color: burlywood;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Dancing Script", cursive;
+
+}
+.block-four{
+    height: 200px;
+    width: 200px;
+    background-color: burlywood;
+    font-family: "Fjalla One", sans-serif;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block-five{
+    height: 200px;
+    width: 200px;
+    background-color: burlywood;
+    font-family: "Indie Flower", cursive;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

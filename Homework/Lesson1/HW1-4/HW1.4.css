@@ -1,0 +1,42 @@
+
+body{
+    font-family: Arial,sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+.card-game{
+    max-width: 500px;
+    margin: 200px 500px;
+}
+h2{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.hand{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.card{
+    width: 65px;
+    height: 65px;
+    margin-right: 8px;
+    background-color: white;
+    border: 1px solid#333;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: 700;
+    color: black;
+}
+.nine.hearts,.six.hearts,.ace.diamonds,.three.hearts,.king.diamonds{
+    color: #cc0000;
+
+}
+.two.clubs,.queen.spades,.jack.clubs,.ace.clubs,.ten.clubs,.eight.spades{
+    color: black;
+}
