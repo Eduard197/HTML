@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+header, footer {
+    height: 22vh;
+    background: #D9D9D9;
+}
+main {
+    height: 56vh;
+    display: flex;
+}
+aside {
+    width: 27vw;
+    background: #C0BDBD;
+}
+.middl {
+    width: 46vw;
+    height: 56vh;
+}
+.middl-top {
+    height: 28vh;
+    background: #827878;
+}
+.middl-bottom {
+    height: 28vh;
+    background: #B7ADAD;
+}
