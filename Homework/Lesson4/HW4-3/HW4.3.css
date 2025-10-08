@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+nav {
+    height: 4.5vh;
+    background: #D9D9D9;
+}
+main {
+    display: flex;
+}
+.section-1 {
+    display: flex;
+}
+.section-1-left {
+    height: 86vh;
+    width: 28.8vw;
+    background: #A4A4A4;
+
+}
+.section-2-left-right {
+    width: 30vw;
+    height: 86vh;
+    background: #C1C1C1;
+}
+.section-2 {
+
+}
+.section-2-top {
+    height: 43vh;
+    width: 40.6vw;
+    background: #7F7A7A;
+}
+.section-2-bottom {
+    background: #6B6161;
+    height: 43vh;
+    width: 40.6vw;
+}
+footer {
+    background: #D9D9D9;
+    height: 10vh;
+}
