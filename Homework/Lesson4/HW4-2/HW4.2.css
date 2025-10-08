@@ -1,0 +1,49 @@
+* {
+    margin: o;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+header {
+    height: 20vh;
+    background: #8D8484;
+}
+main{
+    width: 73vw;
+    display: flex;
+}
+.content-1 {
+    height: 20vh;
+    width: 73vw;
+    background: #776969;
+}
+.content-2 {
+    height: 20vh;
+    width: 73vw;
+    background: #643030;
+}
+.content-3 {
+    height: 20vh;
+    width: 73vw;
+    background: #441818;
+}
+.spam-1 {
+    width: 27vw;
+    height: 30vh;
+    background: #937575;
+}
+.spam-2 {
+    width: 27vw;
+    height: 30vh;
+    background: #644C4C;
+}
+footer {
+    background: #BDBDBD;
+    height: 20vh;
+}
+header, section,footer  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
