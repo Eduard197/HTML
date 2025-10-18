@@ -1,0 +1,31 @@
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .items{
+        width: 768px;
+        height: 654.0126342773438px;
+        gap: 32px;
+        opacity: 1;
+        padding-top: 32px;
+        padding-right: 24px;
+        padding-bottom: 32px;
+        padding-left: 24px;
+
+    }
+    .item{
+        width: 218.6666717529297px;
+        height: 164.00631713867188px;
+    }
+    .item img{
+
+        width: 218.6666717529297px;
+        height: 164.00631713867188px;
+
+    }
+    .item p{
+        text-align: center;
+        width: 218.6666717529297px;
+        height: 16px;
+
+    }
+
+
+}
