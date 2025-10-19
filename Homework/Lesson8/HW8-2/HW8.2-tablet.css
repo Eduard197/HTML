@@ -1,0 +1,27 @@
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+.items{
+    width: 720px;
+    height: 556px;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+    .item{
+        width: 348px;
+        height: 258px;
+        margin-bottom: 16px;
+    }
+    .item img{
+        width: 160px;
+        height: 160px;
+    }
+    .item h3{
+        width: 348px;
+        height: 24px;
+    }
+    .item p{
+        width: 338px;
+        height: 44px;
+
+    }
+    
+}
